@@ -1,11 +1,12 @@
-// @import '../shared/main';
+// Global layout styles
 
 #jp-plugin-container {
 	padding: $gutter;
-	font-family: "open sans", sans-serif;
+	font-family: "open sans", sans-serif; // included in wp-admin
 
 	h2 {
 		font-weight: 600;
+		font-size: em(22px);
 	}
 
 	p {
